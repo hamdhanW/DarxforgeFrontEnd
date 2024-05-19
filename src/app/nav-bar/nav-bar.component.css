@@ -1,0 +1,103 @@
+.nav-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5vw;
+  backdrop-filter: blur(151.10000610351562px);
+  padding: 1vw 2vw 0vw 2vw;
+}
+
+.darxforge-logo-svg{
+  width: 8vw;
+  height: auto;
+}
+
+.notch{
+  display: flex;
+  padding: 0.5vw 0.7vw 0.5vw 0.8vw;
+  align-items: center;
+  gap: 0.6vw;
+  border-radius: 32px;
+  background: #0F0F0F;
+  box-shadow: 0px 4px 43.9px 0px rgba(40, 39, 39, 0.19);
+  font-size: 0.75vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.work-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #E4E4E4;
+  text-align: center;
+
+}
+.services-text{
+  color: #E4E4E4;
+  text-align: center;
+
+}
+.about-text{
+  color: #E4E4E4;
+  text-align: center;
+
+}
+.scroll-to-top-icon{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.scroll-icon-svg{
+  width: 1.2vw;
+  height: auto;
+}
+.social-media-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5vw;
+}
+
+@media (max-width: 768px) {
+  .notch{
+    padding: 1vw 3vw 1vw 3vw;
+    gap: 1vw;
+    font-size: 1vw;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vw 2vw 0vw 2vw;
+
+  }
+  .notch{
+    padding: 2vw 2vw 2vw 3vw;
+    gap: 2vw;
+    font-size: 3vw;
+  }
+  .scroll-icon-svg{
+    width: 5vw;
+  }
+  .darxforge-logo-svg{
+    width: 15vw;
+  }
+  .social-media-links{
+    gap: 1.5vw;
+  }
+  .instagram-icon{
+    width: 4vw;
+  }
+  .facebook-icon{
+    width: 4vw;
+  }
+  .call-icon{
+    width: 4vw;
+  }
+}
