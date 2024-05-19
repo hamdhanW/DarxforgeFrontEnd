@@ -1,0 +1,60 @@
+<svg width="1280" height="858" viewBox="0 0 1280 858" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_df_75_15)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M872.928 152.471C977.803 152.748 1041.44 165.308 1073.5 239.15C1105.56 312.991 1126.21 385.803 1037 435.5C947.788 485.197 918.059 528.223 823.72 484.183C716.366 434.067 681.849 326.468 728.889 239.15C798.083 174.916 794.098 152.625 872.928 152.471Z" fill="#72ACEB"/>
+</g>
+<g filter="url(#filter1_df_75_15)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M239.277 310.725C330.541 273.032 479.304 209.684 531 255.468C646.5 310.725 592.523 399.109 531 469.968C469.477 540.826 399.743 586.36 303.52 586.241C194.021 586.105 129.299 514.98 142.021 430.134C181.452 355.216 170.795 339.338 239.277 310.725Z" fill="#D9DFDE"/>
+</g>
+<g filter="url(#filter2_b_75_15)">
+<rect width="1278" height="858" fill="url(#paint0_linear_75_15)"/>
+</g>
+<g filter="url(#filter3_df_75_15)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M625.223 237.749C773.356 237.968 730.675 159.782 775.909 237.749C798.543 276.762 882.453 412.71 756.409 465.262C630.365 517.813 651.63 567.71 518.409 521.262C492.5 405.5 492.5 402.5 457.223 303.749C555.002 235.859 513.877 237.967 625.223 237.749Z" fill="#F2F2F2"/>
+</g>
+<defs>
+<filter id="filter0_df_75_15" x="458.326" y="-88.5291" width="892.599" height="850.022" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="9"/>
+<feGaussianBlur stdDeviation="125"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.552361 0 0 0 0 0.697411 0 0 0 0 0.808333 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_75_15"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_75_15" result="shape"/>
+<feGaussianBlur stdDeviation="21.3" result="effect2_foregroundBlur_75_15"/>
+</filter>
+<filter id="filter1_df_75_15" x="-109.565" y="-1.51526" width="958.427" height="846.756" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="9"/>
+<feGaussianBlur stdDeviation="125"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.929412 0 0 0 0 0.937255 0 0 0 0 0.937255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_75_15"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_75_15" result="shape"/>
+<feGaussianBlur stdDeviation="21.3" result="effect2_foregroundBlur_75_15"/>
+</filter>
+<filter id="filter2_b_75_15" x="-255" y="-255" width="1788" height="1368" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="127.5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_75_15"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_75_15" result="shape"/>
+</filter>
+<filter id="filter3_df_75_15" x="207.223" y="-37.8546" width="867.036" height="836.53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="9"/>
+<feGaussianBlur stdDeviation="125"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_75_15"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_75_15" result="shape"/>
+<feGaussianBlur stdDeviation="41.85" result="effect2_foregroundBlur_75_15"/>
+</filter>
+<linearGradient id="paint0_linear_75_15" x1="574.102" y1="105.5" x2="577.607" y2="858" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D6DDDC"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
