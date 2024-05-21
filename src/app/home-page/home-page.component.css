@@ -409,6 +409,241 @@
   padding: 0vw 0vw 0vw 0vw;
 }
 
+.client-section-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5vw;
+  background: #17142F;
+  color: #E4E4E4;
+  padding: 1vw;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.6s ease; /* Smooth transition for sliding effect */
+}
+
+.matrices-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 5vw 9vw 5vw 9vw;
+
+}
+
+.matrices-container-box{
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.matrice-title{
+  color: #75AC77;
+  font-family: Roboto;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.51px;
+}
+
+.matrice-percentage{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -2.37px;
+}
+
+
+
+.testimonial-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4.5vw;
+  background: #F9F6FC;
+  overflow: hidden;
+  transition: transform 0.5s ease; /* Smooth transition for sliding effect */
+
+}
+
+.slide-up {
+  transform: translateY(-2vw); /* Slide up */
+}
+
+.slide-down {
+  transform: translateY(2vw); /* Slide down */
+}
+
+
+.testimonal-title{
+  color: #14152F;
+  text-align: center;
+  text-shadow: 0px 4px 114.8px rgba(68, 68, 68, 0.52);
+  font-family: Roboto;
+  font-size: 7vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.01vw;
+  padding: 10vw 13vw 9vw 13vw;
+}
+
+.testimonial-cards-wrapper {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding: 2vw;
+
+  position: relative;
+  width: 100%;
+}
+
+.testimonial-cards-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding:0vw 2vw 10vw 2vw;
+  gap: 2vw;
+  width: 100%;
+  animation: scroll 20s linear infinite;
+
+}
+
+.testimonial-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 3vw;
+  background: #FFF;
+  width: 30vw;
+  padding: 2vw 2vw 3vw 2vw;
+  transition: transform 0.5s ease, margin 0.5s ease; /* Smooth transition for zoom effect */
+
+}
+
+.testimonial-card:hover {
+  transform: scale(1.2); /* Zoom effect on hover */
+  z-index: 1; /* Bring the zoomed card forward */
+  margin: 0 2vw; /* Adjust margin to remove padding between zoomed card and adjacent cards */
+}
+
+.testimonial-card:not(:hover) {
+  margin: 0 0vw; /* Default margin for non-zoomed cards */
+}
+/*.testimonial-card.zoom {*/
+/*  transform: scale(1.2); !* Zoom effect *!*/
+/*  z-index: 1; !* Bring the zoomed card forward *!*/
+/*  margin: 0 -2vw; !* Adjust margin to remove padding between zoomed card and adjacent cards *!*/
+
+/*}*/
+
+
+
+/*.testimonial-card:not(.zoom) {*/
+/*  margin: 0 0vw; !* Default margin for non-zoomed cards *!*/
+/*}*/
+
+.card-upper-section{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 1vw;
+  gap: 6vw;
+}
+
+.name-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.client-name{
+  align-items: center;
+  border-radius: 3vw;
+  background: #17142F;
+  padding: 1vw 2vw 1vw 2vw;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 100%;        /* Ensure it doesn't exceed its container */
+  overflow: hidden;       /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis if text is too long */
+  white-space: nowrap;  }
+
+.client-dp{
+
+}
+
+.client-dp-image-svg{
+  border-radius: 2vw;
+  width: 6vw;
+
+}
+
+.card-lower-section{
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+
+.client-professsion{
+  padding-left: 1vw ;
+
+}
+
+.client-profession-text{
+  color: #17142F;
+  font-family: Roboto;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.client-feedback-container{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2vw;
+  background: rgba(247, 244, 250, 0.54);
+  padding: 2vw 1vw 2vw 1vw ;
+}
+
+.client-feedback{
+  color: #17142F;
+  font-family: Roboto;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-20vw - 2vw)); /* Adjust this calculation to match the card width and gap */
+  }
+}
 
 
 @media (max-width: 480px) {
