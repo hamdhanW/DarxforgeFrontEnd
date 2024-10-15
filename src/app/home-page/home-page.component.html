@@ -31,8 +31,7 @@
           <img class="design-section-image-svg" src="assets/Frame%2087designSectionImg.svg">
         </div>
         <div class="design-section-sub-text">
-          Crafting holistic, user-friendly digital experiences.
-          We design great user experiences so that your digital products will be adored by users.
+          Crafting seamless, user-friendly digital experiences that your users will truly adore.
         </div>
       </div>
     </div>
@@ -48,8 +47,8 @@
       </div>
       <div class="engineering-section-content">
         <div class="engineering-section-sub-text">
-          Collaborate with us to bring your dream digital product to
-          life, as we navigate the complexities of modern engineering with precision and expertise.
+
+          Collaborate with us to create your dream product, mastering engineering challenges with precision.
         </div>
         <div class="engineering-section-image">
           <img class="engineering-section-image-svg" src="assets/Frame%2088engineeringBlobImg.svg">
@@ -71,8 +70,7 @@
           <img class="ai-section-image-svg" src="assets/robotoSvgnew.png">
         </div>
         <div class="ai-section-sub-text">
-          Elevate your business with Artificial Intelligence solutions tailored to your unique requirements. we harness
-          the transformative power of AI to drive your success.
+          Boost your business with tailored AI solutions that drive success.
         </div>
       </div>
     </div>
@@ -203,4 +201,98 @@
 
   </div>
   <!--  client testimpnial section ends-->
+  <!--  project portfolio section starts-->
+
+  <div class="portfolio-section-container">
+    <div class="portfolio-section-content">
+      <div class="portfolio-section-heading">
+        Our Masterpieces.<br>Your Inspiration.
+      </div>
+      <div class="portfolio-section-video-container">
+        <div class="portfolio-section-video-webM">
+          <video id="video1" class="portfolio-video" src="assets/Video1.webm" autoplay loop></video>
+          <video id="video2" class="portfolio-video" src="assets/video2.webm" autoplay loop></video>
+          <video id="video3" class="portfolio-video" src="assets/video3.webm" autoplay loop></video>
+        </div>
+        <div class="portfolio-navigation-container">
+          <div class="nav-dot" data-video="video1"></div>
+          <div class="nav-dot" data-video="video2"></div>
+          <div class="nav-dot" data-video="video3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-us-section-container">
+    <div class="contact-us-form-container">
+      <div class="lets-talk-heading">
+        Let’ Talk
+      </div>
+      <div class="form-section">
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+          <div class="form-group"x>
+            <div class="name-phone-number-container">
+              <div class="form-name-container">
+                <mat-form-field appearance="fill" class="full-width">
+                  <mat-label>Name</mat-label>
+                  <input matInput formControlName="firstName" required>
+                </mat-form-field>
+              </div>
+              <div class="phone-container">
+                <mat-form-field appearance="fill" class="full-width">
+                  <mat-label>Phone Number</mat-label>
+                  <input matInput formControlName="phoneNumber" required>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="email-container">
+              <mat-form-field appearance="fill" class="full-width">
+                <mat-label>Email</mat-label>
+                <input matInput formControlName="email" type="email" required>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="description-send-button-container">
+                <div class="description-container-text">
+                  <mat-form-field appearance="fill" class="full-width">
+                    <mat-label> Tell us a little bit about yourself</mat-label>
+                    <textarea matInput formControlName="description" rows="5"></textarea>
+                  </mat-form-field>
+                </div>
+
+
+            </div>
+          </div>
+          <div class="form-group">
+
+            <div class="send-button-container">
+              <div class="form-group submit-button">
+                <button mat-raised-button color="primary" type="submit" [disabled]="!contactForm.valid" >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="follow-us-container">
+      <div class="follow-us-text-with-button">
+        <div class="follow-us-on-insta-text">
+          Follow us on <br>
+          Instagram
+        </div>
+        <div class="follow-us-insta-icon">
+          <img src="assets/instaIconFollowSection.svg">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--  project portfolio section ends-->
 </div>
